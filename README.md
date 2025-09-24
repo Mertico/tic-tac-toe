@@ -2,7 +2,7 @@
 
 [Задача](./TASK.md)
 |
-[Astro Docs]([https://docs.astro.build/en/getting-started/)
+[Astro Docs](https://docs.astro.build/en/getting-started/)
 
 ## 🚀 О проекте
 
