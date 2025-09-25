@@ -42,3 +42,57 @@ O| |X
 - [ ] Валидация входных данных игроков
 - [ ] Логирование игровых событий
 - [ ] Таймер хода
+
+
+# Игровое поле
+
+```html
+<table class="tic-tac-toe">
+  <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell nought"></td>
+  </tr>
+  <tr>
+    <td class="cell"></td>
+    <td class="cell cross"></td>
+    <td class="cell"></td>
+  </tr>
+  <tr>
+    <td class="cell"></td>
+    <td class="cell"></td>
+    <td class="cell"></td>
+  </tr>
+</table>
+<style>
+.tic-tac-toe {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.tic-tac-toe td {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #333;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 48px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tic-tac-toe td:hover:not(.cross):not(.nought) {
+  background-color: #f0f0f0;
+}
+
+.cross::after {
+  content: "✗";
+  color: #e74c3c;
+}
+
+.nought::after {
+  content: "○";
+  color: #3498db;
+}
+</style>
+```
