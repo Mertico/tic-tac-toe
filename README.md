@@ -1,46 +1,32 @@
-# Astro Starter Kit: Basics
+# Starter Kit
 
-```sh
-npm create astro@latest -- --template basics
-```
+Стартовый шаблон для быстрого создания приложений с поддержкой:
+- React
+- Vue
+- Svelte
+- Astro
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+**🚀 С чего начать**
 
-## 🚀 Project Structure
+- [ ] Установить зависимости `npm ci`
+- [ ] Запустить проект `npm run dev`
+- [ ] Выбрать фраймворк на котором будет реализована задача
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🧞 Основные команды
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+| Команда           | Действие                                       |
+| :---------------- | :--------------------------------------------- |
+| `npm install`     | Устанавливает зависимости                      |
+| `npm run dev`     | Запускает локальный сервер на `localhost:4321` |
+| `npm run build`   | Собирает production-версию в папку `./dist/`   |
+| `npm run preview` | Локальный предпросмотр сборки перед деплоем    |
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+# Подсказки
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Ссылки на документацию:
+- [Vue](https://ru.vuejs.org/guide/introduction.html)
+- [Astro](https://docs.astro.build/en/basics/astro-pages/)
+- [React](https://react.dev/reference/react)
+- [Svelte](https://svelte.dev/docs/svelte/overview)
